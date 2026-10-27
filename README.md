@@ -39,6 +39,26 @@ Write a blog, create a video, share a lab, or mentor someone who’s just starti
 Together, we can build a community that’s **driven by curiosity, collaboration, and ethical intent**.
 
 ---
+## 🛠️ HTTPX Subdomain Automation
+
+The repository includes a Bash utility that probes a list of subdomains with
+ProjectDiscovery `httpx`, detects technologies, and checks common metadata and
+well-known endpoints. Use it only on systems you own or are authorized to test.
+
+See the [HTTPX automation guide](./Automation/httpx/README.md) for requirements,
+input format, checks, and output details. To run it:
+
+```bash
+cd Automation/httpx
+chmod +x httpx-auto.sh
+./httpx-auto.sh
+```
+
+The script prompts for a `.txt` file containing one subdomain per line and
+saves its results in an `httpx-results/` directory in the current working
+directory.
+
+---
 ## 🔗 Follow Me for More Insights
 
 If you enjoyed this and want to learn more about  
